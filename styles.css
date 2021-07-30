@@ -1,14 +1,47 @@
-body {
-    background-color: darkslategrey;
-    color: azure;
+html {
+	margin: 15px;
+	padding: 35px;
+	}
+
+body { 
+    background-color: rgb(173, 231, 231);
+    color: rgb(10, 12, 12);
     font-size: 1.1em;
 }
+
 h1 {
-    color: coral;
+    color: red;
+    font-size: 2.5em;
 }
-#intro {
-    font-size: 1.3em;
+
+h2 {
+    color: purple;
 }
-.colorful {
-    color: orange;
+
+p {
+    background-color: rgb(250, 252, 253);
+	margin-top: 0; 
+	text-align: justify;
+}
+
+.funParagraph {
+    background-color: rgb(190, 112, 190);
+    color: green;
+    font-size: 1.5em;
+}
+
+#testP {
+    background-color: rgb(190, 112, 190);
+    color: rgb(156, 191, 236);
+    font-size: 1.5em;
+}
+
+p.testP {
+    text-align: center;
+    color: green;
+  }
+
+
+#mainHeading {
+    color: red;
 }
